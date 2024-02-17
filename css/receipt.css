@@ -1,0 +1,20 @@
+.receipt{
+    width:70%;
+    margin:10px auto;
+    border:2px solid black;
+    padding: 10px 10px;
+}
+.logo{
+    height:3px;
+
+}
+.heading{
+    font-size:60px;
+    text-align:right;
+    margin:10px 10px;
+}
+.address{
+    text-align: right;
+    margin:0px 10px;
+    font-size:18px;
+}

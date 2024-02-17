@@ -91,7 +91,7 @@
  }
  .stamp{
     position: relative;
-    left: 80%;
+    left: 74%;
     margin:0 50px;
     top: 70px;
     transform: rotate(350deg);
@@ -102,4 +102,9 @@
     text-align: right;
     margin:0 50px;
  }
-
+.ending{
+    font-size: 20px;
+    padding: 0px 10px;
+    text-align: left;
+    margin:0 50px;
+}

@@ -1,5 +1,9 @@
-.receipt{
+.body{
+   background-color: rgb(255, 217, 223);
+}
+.receipt-header{
     width:70%;
+    height: auto;
     margin:10px auto;
     border:2px solid black;
     padding: 10px 10px;
@@ -11,10 +15,91 @@
 .heading{
     font-size:60px;
     text-align:right;
-    margin:10px 10px;
+    margin:10px 50px;
 }
 .address{
     text-align: right;
-    margin:0px 10px;
+    margin:5px 50px;
     font-size:18px;
 }
+.date{
+    text-align: left;
+    margin:10px 50px;
+    font-size:18px;
+}
+.receipt-item{
+    display: flex;
+    justify-items: space-between;
+}
+.title{
+    font-size:30px;
+    font-weight: 100px;
+    text-align:center;
+}
+.item{
+   padding: 10px;
+   font-size:20px;
+   margin:auto;
+}
+.quantity{
+    padding: 10px;
+    font-size:20px;
+    margin:auto;
+ }
+ .unit-price{
+    padding: 10px;
+    font-size:17px;
+    margin:auto;
+ }
+ .total{
+    padding: 10px;
+    font-size:20px;
+    margin:auto;
+ }
+ .price{
+    display:block;
+
+ }
+ .subtotal{
+    padding: 10px;
+    font-size:20px;
+    text-align: right;
+    margin:0 50px;
+ }
+.tax{
+    padding: 10px;
+    font-size:20px;
+    text-align: right;
+    margin:0 50px;
+ }
+ .total-payment{
+    padding: 10px;
+    font-size:25px;
+    text-align: right;
+    margin:0 50px;
+ }
+ .greetings{
+    font-size:30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:0 50px;
+ }
+ .information{
+    padding: 10px;
+    font-size:20px;
+    text-align: left;
+    margin:0 50px;
+ }
+ .stamp{
+    position: relative;
+    left: 80%;
+    margin:0 50px;
+    top: 70px;
+    transform: rotate(350deg);
+ }
+ .name{
+    font-size: 40px;
+    padding: 0px 10px;
+    text-align: right;
+    margin:0 50px;
+ }
+
